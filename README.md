@@ -1,31 +1,25 @@
-# COSMIC Applet Template
+# 🚀 Cosmic Resource Monitor
 
-A template for developing applets for the COSMIC™ desktop environment using [libcosmic][libcosmic].
+## Vibe Check 💅
+Stop guessing if your PC is struggling. Get that real-time data on your panel, no cap. 🔥
 
-## Getting Started
+## What's the tea? ☕
+This is a premium **Cosmic Applet** that tracks your system's vital signs so you don't have to.
+*   **CPU Usage**: Is it tweaking or just chillin'? 🧠
+*   **RAM Stats**: Don't let Chrome eat all your memory. 🐏
+*   **Disk Info**: Know your space before you download that 100GB game. 💾
+*   **Network Speed**: Tracking those bytes like a pro. 🌐
 
-To create an applet with this template, [install `cargo generate`][cargo-generate] and run:
+## Features ✨
+- Aesthetic panel button with icons.
+- Sleek popup with progress bars. 📊
+- Real-time updates (we stay on that grind). 📈
+- Configurable settings via COSMIC. ⚙️
 
-```sh
-cargo generate gh:pop-os/cosmic-applet-template
-```
+## How to use? 🧐
+1.  **Build it**: `just build` (or `cargo build --release`)
+2.  **Run it**: Pop it on your COSMIC panel.
+3.  **Vibe and chill**: No more wondering why your fans are screaming. 🧊
 
-A [justfile](./justfile) is included by default with common recipes used by other COSMIC projects. Install from [casey/just][just]
-
-- `just` builds the applet with the default `just build-release` recipe
-- `just run` builds and runs the applet
-- `just install` installs the project into the system
-- `just vendor` creates a vendored tarball
-- `just build-vendored` compiles with vendored dependencies from that tarball
-- `just check` runs clippy on the project to check for linter warnings
-- `just check-json` can be used by IDEs that support LSP
-
-## Documentation
-
-Refer to the [libcosmic API documentation][api-docs] and [book][book] for help with building applets with [libcosmic][libcosmic].
-
-[api-docs]: https://pop-os.github.io/libcosmic/cosmic/
-[book]: https://pop-os.github.io/libcosmic-book/
-[cargo-generate]: https://cargo-generate.github.io/cargo-generate/installation.html
-[libcosmic]: https://github.com/pop-os/libcosmic/
-[just]: https://github.com/casey/just
+---
+*Maintained with ✨ positive energy ✨ and zero placeholder energy.*
