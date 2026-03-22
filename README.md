@@ -1,26 +1,31 @@
-# 🚀 chrono-orbit
+# COSMIC Applet Template
 
-## Vibe Check 💅
-Welcome to the most aesthetic repo in the orbit. No cap, this project is straight fire. 🔥
+A template for developing applets for the COSMIC™ desktop environment using [libcosmic][libcosmic].
 
-## What's the tea? ☕
-*   **Git is initialized**: Bet.
-*   **README is Gen Z**: Slay.
-*   **Updates are periodic**: We're staying on that grind. 📈
-*   **Non-essential files**: Ignored. Only the real ones stay. 😤
+## Getting Started
 
-## How to use? 🧐
-1.  Add your remote: `git remote add origin <your-repo-url>`
-2.  Run the agent: `python3 git_agent.py`
-3.  Vibe and chill. 🧊
+To create an applet with this template, [install `cargo generate`][cargo-generate] and run:
 
-## Tech Stack 💻
-*   Python (for the automation, fr fr)
-*   Git (keeping it 100)
+```sh
+cargo generate gh:pop-os/cosmic-applet-template
+```
 
-## Contributors 👑
-*   You (the main character)
-*   Antigravity AI (the sidekick)
+A [justfile](./justfile) is included by default with common recipes used by other COSMIC projects. Install from [casey/just][just]
 
----
-*Maintained with ✨ positive energy ✨*
+- `just` builds the applet with the default `just build-release` recipe
+- `just run` builds and runs the applet
+- `just install` installs the project into the system
+- `just vendor` creates a vendored tarball
+- `just build-vendored` compiles with vendored dependencies from that tarball
+- `just check` runs clippy on the project to check for linter warnings
+- `just check-json` can be used by IDEs that support LSP
+
+## Documentation
+
+Refer to the [libcosmic API documentation][api-docs] and [book][book] for help with building applets with [libcosmic][libcosmic].
+
+[api-docs]: https://pop-os.github.io/libcosmic/cosmic/
+[book]: https://pop-os.github.io/libcosmic-book/
+[cargo-generate]: https://cargo-generate.github.io/cargo-generate/installation.html
+[libcosmic]: https://github.com/pop-os/libcosmic/
+[just]: https://github.com/casey/just
