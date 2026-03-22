@@ -1,3 +1,7 @@
+# Git Management Agent
+git_agent.py
+agent.log
+
 # Antigravity/Gemini internal files
 .gemini/
 brain/
