@@ -1,7 +1,7 @@
-# 🚀 Cosmic Resource Monitor
+# 🚀 CosmicRES
 
 ## Vibe Check 💅
-Stop guessing if your PC is struggling. Get that real-time data on your panel, no cap. 🔥
+Stop guessing if your PC is struggling. Get that real-time data on your panel with **CosmicRES**, no cap. 🔥
 
 ## What's the tea? ☕
 This is a premium **Cosmic Applet** that tracks your system's vital signs so you don't have to.

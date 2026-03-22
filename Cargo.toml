@@ -1,5 +1,5 @@
 [package]
-name = "cosmic-resource-monitor"
+name = "cosmic-res"
 version = "0.1.0"
 edition = "2024"
 license = "GPL-3.0-only"
