@@ -1,5 +1,5 @@
-name := 'cosmic-resource-monitor'
-appid := 'com.github.pop-os.cosmic-resource-monitor'
+name := 'cosmic-res'
+appid := 'com.github.pop-os.cosmic-res'
 
 rootdir := ''
 prefix := '/usr'

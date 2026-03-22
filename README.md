@@ -17,9 +17,34 @@ This is a premium **Cosmic Applet** that tracks your system's vital signs so you
 - Configurable settings via COSMIC. ⚙️
 
 ## How to use? 🧐
-1.  **Build it**: `just build` (or `cargo build --release`)
-2.  **Run it**: Pop it on your COSMIC panel.
-3.  **Vibe and chill**: No more wondering why your fans are screaming. 🧊
+
+### 🛠️ Installation (The Quick Way)
+If you're on a COSMIC-compatible system, just run:
+1.  **Clone the vibes**:
+    ```bash
+    git clone https://github.com/vajraaynam/CosmicRES.git
+    cd CosmicRES
+    ```
+2.  **Build & Install Locally**:
+    ```bash
+    just install-local
+    ```
+3.  **Activate**:
+    - Right-click your panel -> **Panel Settings**.
+    - Go to **Applets** -> **Add Applet**.
+    - Find **CosmicRES** and add it. Slay. 💅
+
+### 🏗️ Manual Build
+If you don't have `just` installed:
+```bash
+cargo build --release
+# Followed by manual binary placement if you're like that. 
+```
+
+## Dependencies 🧩
+- `libcosmic` (for that premium UI)
+- `sysinfo` (for the real-time tea)
+- `just` (recommended for easy install)
 
 ---
 *Maintained with ✨ positive energy ✨ and zero placeholder energy.*
