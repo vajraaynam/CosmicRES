@@ -1,0 +1,22 @@
+# Antigravity/Gemini internal files
+.gemini/
+brain/
+implementation_plan.md
+walkthrough.md
+task.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# System
+.DS_Store
+Thumbs.db
+
+# Other
+node_modules/
+dist/
+build/
